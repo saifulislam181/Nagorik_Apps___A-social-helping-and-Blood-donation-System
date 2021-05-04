@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    background: #ececec;;
+    color: indigo;
+    position: relative;
+    overflow: hidden;
+    padding-top: 25px;
+    position: fixed;
+    z-index: 1;
+   
+}
+.logo-img{
+    width: 80px;
+    height: 80px;
+    padding-left: 25px;
+    margin-left: 25px;
+    margin-top: -20px;
+
+}
+.header ul{
+    float: right;
+    margin-right: 20px;
+}
+.header ul li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 3px;
+    outline: none;
+    background: none;
+    border:none;
+    margin-left: 7px;
+    box-shadow:  5px 5px 2px gray, -5px -5px 2px white;
+}
+.header ul li a{
+    padding:33px 25px;
+    transition: 0.7s ease;
+    color: indigo;
+    text-decoration: none;
+    
+}
+
+.bg{
+    background: url(img/bg.jpg);
+    height: 550px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+.title{
+    background: black;
+    padding: 0 0 190px 0;
+    opacity: 0.8;
+    font-family: cursive;
+}
+.title h1{
+    padding: 250px 0 15px 0;
+    text-align: center;
+    color: chartreuse;
+    font-size: 45px;
+ 
+}
+.title h2{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.sec2{
+    background: #ececec;
+    padding: 50px 100px 50px 100px;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+.sec2 h1{
+    color: indigo;
+    font-size: 35px;
+    text-transform: uppercase;
+    transition: color 2s ease-in-out;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+.sec2 h1:hover{
+    color: coral;
+}
+.border-bottom{
+    margin: -10px 550px 20px 550px;
+    border-bottom: 5px dotted indigo;
+}
+
+.sec3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 25px;
+    text-align: center;
+}
+.sec3 h1{
+    margin-bottom: 20px;
+    color: rgb(19, 165, 141);
+    transition: color 2s;
+}
+
+.sec3 h1:hover{
+    color: tomato;
+}
+.flip-flex{
+    justify-content: center;
+    display: flex;
+
+}
+.container1{
+    width: 350px;
+    height: 200px;
+    border:1px solid greenyellow;
+}
+ .flip-card1:hover{
+    transform:rotateY(180deg);
+}
+.flip-card1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+
+}
+.font,.back{
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    backface-visibility: hidden;
+ 
+}
+
+.back{
+    background-color: rgb(26, 135, 185);
+    color: white;
+    transform: rotateY(180deg);
+  
+}
+.back h3{
+    padding: 10px 0 10px 0;
+}
+
+.container2{
+    height: 200px;
+    width: 350px;
+    margin-left: 30px;
+    border: 1px solid gray;
+
+}
+
+.flip-card2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+.flip-card2:hover{
+    transform:rotateY(180deg);
+}
+.container3{
+    height: 200px;
+    width: 350px;
+    margin-left: 30px;
+    border:1px solid turquoise;
+}
+
+.flip-card3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+.flip-card3:hover{
+    transform:rotateY(180deg);
+}
+
+
+
+.sec4{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    background: #ececec;
+    height:400px;
+    
+    font-family: cursive;
+    
+}
+.sec4 h1{
+    color: indigo;
+    transition: color 2s;
+}
+.sec4 h1:hover{
+    color: coral;
+}
+
+
+.orga{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    padding: 30px;
+    box-sizing: border-box;
+    
+
+}
+.orga1{
+    width: 25%;
+    height: 220px;
+    text-align: justify;
+    box-shadow: 8px 8px 5px darkgrey,-8px -8px 5px white;
+    border-radius: 40px;   
+    padding: 28px; 
+
+}
+.orga1 h3{
+    text-align: center;
+    color: rgb(23, 197, 154);
+}
+.orga1 p{
+    padding-top: 20px;
+    margin-bottom:20px ;
+}
+.orga1 a{
+    border: 1px solid ;
+    text-decoration: none;
+    background: rgb(23, 197, 154);
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    color: white;
+    margin-left: 120px;
+}
+
+.orga2{
+    width: 25%;
+    height: 220px;
+    text-align: justify;
+    box-shadow: 8px 8px 5px darkgrey,-8px -8px 5px white;
+    border-radius: 40px;   
+    padding: 30px; 
+    margin-left: 25px;
+}
+.orga2 h3{
+    text-align: center;
+    color: tomato;
+}
+
+.orga2 p{
+    padding-top: 20px;
+    margin-bottom:20px ;
+}
+.orga2 a{
+    border: 1px solid ;
+    text-decoration: none;
+    background: tomato;
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-left: 120px;
+    color: white;
+}
+
+.orga3{
+    width: 25%;
+    height: 220px;
+    text-align: justify;
+    box-shadow: 8px 8px 5px darkgrey,-8px -8px 5px white;
+    border-radius: 40px;   
+    padding: 30px; 
+    margin-left: 25px;
+}
+
+.orga3 h3{
+    text-align: center;
+    color: rgb(230, 208, 16);
+}
+
+.orga3 p{
+    padding-top: 20px;
+    margin-bottom:20px ;
+}
+.orga3 a{
+    border: 1px solid ;
+    text-decoration: none;
+    background: rgb(23, 197, 154);
+    border-radius: 15px;
+    padding: 5px ;
+    margin-top: 10px;
+    color: white;
+    margin-left: 120px;
+}
+
+.footer{
+    background:indigo;
+    height: 30px;
+    width: 100%;
+    padding:30px 0 10px 0;
+    text-align: center;
+    color: yellow;
+
+}
