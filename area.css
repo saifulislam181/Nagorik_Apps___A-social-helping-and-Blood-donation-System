@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background: rgb(49, 18, 121);
+    height: 300px;
+    
+}
+.bg h2{
+    color: white;
+    padding: 100px;
+  
+}
+
+.map{
+    width: 100%;
+}

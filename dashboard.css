@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+a{
+	text-decoration: none;
+}
+.header{
+	background: #ececec;
+	height: 65px;
+	padding-left: 20px;
+}
+
+.sidebarbox{
+	display: flex;
+	
+}
+.col1{
+	width: 15%;
+	height: 200px;
+	background: #ececec;
+	overflow: hidden;
+	padding: 50px 0px 5px 15px;
+
+}
+#dashIcon{
+	font-size: 20px;
+	color: orange;
+	float: left;
+	margin-right: 5px;
+}
+#submitIcon{
+	font-size: 20px;
+	color: orange;
+	float: left;
+	margin-right: 5px;
+}
+#logoutIcon{
+	font-size: 20px;
+	color: orange;
+	float: left;
+	margin-right: 5px;
+}
+.col2{
+	width: 75%;
+	height: 200px;
+	text-align: center;
+
+}
+.col2 h1{
+	color: tomato;
+}
+.footer{
+  background:indigo;
+  height: 30px;
+  width: 100%;
+  padding:30px 0 10px 0;
+  text-align: center;
+  color: yellow;
+
+}
+.adminpanel{
+            text-decoration: none;
+            align-items: center;
+            display: flex;
+            box-sizing: border-box;
+            justify-content: center;
+            margin-top: 30px;
+           }
+           .requesterpage{
+            width: 25%;
+            height: 250px;
+            padding: 20px;
+            box-shadow: 5px 5px 2px gray,-5px -5px 2px white;
+            border-radius: 30px;
+            justify-content: center;
+           }
+          .requesterpage i{
+            margin-top: 35px;
+            font-size: 80px;
+            color: #5ADF72;
+          }
+          .settings{
+            width: 25%;
+            height: 250px;
+            padding: 20px;
+            box-shadow: 5px 5px 2px gray,-5px -5px 2px white;
+            border-radius: 30px;
+            justify-content: center;
+            margin-left: 30px;
+           }
+          .settings i{
+            margin-top: 35px;
+            font-size: 80px;
+            color: #F55D72;
+          }
+         
+           .statuspost{
+            width: 25%;
+            height: 250px;
+            padding: 20px;
+            box-shadow: 5px 5px 2px gray,-5px -5px 2px white;
+            border-radius: 30px;
+            margin-left:35px; 
+            text-decoration: none;
+           }
+           .statuspost i{
+             margin-top: 35px;
+            font-size: 80px;
+            color: #E09125;
+           }
+           .showlist{
+           	background-color: #55D39D;
+           	padding: 5px;
+           	color: indigo;
+           }
